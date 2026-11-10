@@ -1,0 +1,15 @@
+name: aics
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13
+  - pip
+  - pip:
+      # Runtime dependencies. Keep in sync with [project].dependencies in pyproject.toml.
+      - fastapi[standard]>=0.162.0
+      - google-api-python-client>=2.201.0
+      - google-auth>=2.62.1
+      - psycopg[binary]>=3.3.8
+      - pydantic-ai-slim[openai]>=2.66.0
+      - pydantic-settings>=2.16.2
+      - python-dotenv>=1.2.4

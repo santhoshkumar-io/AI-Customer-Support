@@ -5,7 +5,7 @@ file is one entry: the heading is the title, the lines under it are the content.
 
 Run from the project root:
 
-    uv run python -m scripts.seed_knowledge_base
+    python -m scripts.seed_knowledge_base
 
 Rerunning updates the content of existing entries instead of adding duplicates,
 so anything edited in the dashboard is overwritten.
